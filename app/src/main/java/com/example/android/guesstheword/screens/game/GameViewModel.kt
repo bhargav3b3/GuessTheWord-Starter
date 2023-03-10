@@ -59,7 +59,7 @@ class GameViewModel: ViewModel() {
 
     fun onSkip() {
 //        score.value =(score.value)?.minus(1)
-        ++score
+        --score
         nextWord()
         Log.i("game", "onskip clicked")
     }
@@ -78,3 +78,5 @@ class GameViewModel: ViewModel() {
         eventGameFinish.value = false
     }
 }
+
+// I Have some changes in the feature Branch after checkedout from Develop.
